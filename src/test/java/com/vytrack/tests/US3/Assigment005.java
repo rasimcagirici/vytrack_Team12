@@ -1,5 +1,6 @@
-package com.vytrack.tests;
+package com.vytrack.tests.US3;
 
+import com.vytrack.utilities.BrowserUtils;
 import com.vytrack.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -29,6 +30,23 @@ public class Assigment005 {
 
 
     @Test
+    public void tc002_Dropdown_Is_On_Left() {
+
+        BrowserUtils.sleep(2);
+        WebElement exportGrit = Driver.getDriver().findElement(By.xpath("//a[@title='With this button you will export the content of the grid as it appears to you, with filters and sorting applied. All pages will be exported.']/../../../../preceding-sibling::div"));
+
+        String export = exportGrit.getAttribute("class");
+
+        if(export.contains("left")){
+            System.out.println("Export Grid dropdown is on the left of the page");
+        }
+        else{
+            System.out.println("Export Grid dropdown is not on the left of the page");
+        }
+
+    }
+
+    @Test
     public void tc001_Export_Grid_Dropdown() {
 
         WebElement exportGridButton = Driver.getDriver().findElement(By.linkText("Export Grid"));
@@ -40,22 +58,24 @@ public class Assigment005 {
 
     }
 
+
+
     @Test
-    public void tc002_Refresh() {
+    public void tc003_Refresh() {
         WebElement refreshButton = Driver.getDriver().findElement(By.xpath("//a[@title='Refresh']"));
         refreshButton.click();
         Assert.assertTrue(refreshButton.isEnabled());
     }
 
     @Test
-    public void tc003_Reset() {
+    public void tc004_Reset() {
         WebElement resetButton = Driver.getDriver().findElement(By.xpath("//a[@title='Reset']"));
         resetButton.click();
         Assert.assertTrue(resetButton.isEnabled());
     }
 
     @Test
-    public void tc004_Grid_Settings() {
+    public void tc005_Grid_Settings() {
         WebElement gridSettingsButton = Driver.getDriver().findElement(By.xpath("//a[@title='Grid Settings']"));
         gridSettingsButton.click();
         WebElement gridSettingsDropDownMenu = Driver.getDriver().findElement(By.xpath("//div[@class='dropdown-menu']"));
