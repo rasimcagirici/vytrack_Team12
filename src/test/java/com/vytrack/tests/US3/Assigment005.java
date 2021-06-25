@@ -30,6 +30,19 @@ public class Assigment005 {
 
 
     @Test
+    public void tc001_Export_Grid_Dropdown() {
+
+        WebElement exportGridButton = Driver.getDriver().findElement(By.linkText("Export Grid"));
+        exportGridButton.click();
+
+        WebElement csvXlsxOption = Driver.getDriver().findElement(By.xpath("(//ul[@class='dropdown-menu'])[3]"));
+
+        Assert.assertTrue(csvXlsxOption.isDisplayed(), "csvXlsxOption is not displayed. FAIL!!!");
+
+    }
+
+
+    @Test
     public void tc002_Dropdown_Is_On_Left() {
 
         BrowserUtils.sleep(2);
@@ -45,20 +58,6 @@ public class Assigment005 {
         }
 
     }
-
-    @Test
-    public void tc001_Export_Grid_Dropdown() {
-
-        WebElement exportGridButton = Driver.getDriver().findElement(By.linkText("Export Grid"));
-        exportGridButton.click();
-
-        WebElement csvXlsxOption = Driver.getDriver().findElement(By.xpath("(//ul[@class='dropdown-menu'])[3]"));
-
-        Assert.assertTrue(csvXlsxOption.isDisplayed(), "csvXlsxOption is not displayed. FAIL!!!");
-
-    }
-
-
 
     @Test
     public void tc003_Refresh() {

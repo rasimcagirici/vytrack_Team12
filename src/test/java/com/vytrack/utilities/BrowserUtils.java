@@ -1,4 +1,4 @@
-package com.cybertek.utilities;
+package com.vytrack.utilities;
 
 public class BrowserUtils {
 

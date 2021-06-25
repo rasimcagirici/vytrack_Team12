@@ -1,4 +1,4 @@
-package com.vytrack.tests.US1_Login;
+package com.vytrack.tests.US2;
 
 import com.vytrack.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
