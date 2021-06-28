@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ad44dd-2e93-4b27-8d5d-a56a059e4e37" name="Default Changelist" comment="added test case for Acceptance criteria 2">
+    <list default="true" id="63ad44dd-2e93-4b27-8d5d-a56a059e4e37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/US3/Assigment005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/US3/Assigment005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vytrack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/US1/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/US1/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/US2/Assigment003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/US2/Assigment003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/WebDriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +46,16 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="TestNG.Assigment005.tc003_Refresh">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Assigment005">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,17 +113,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assigment005.tc003_Refresh" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Assigment005.tc002_Refresh" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vytrack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vytrack.tests.US3.*" />
+          <option name="PATTERN" value="com.vytrack.tests.US2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.vytrack.tests.US3" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests" />
       <option name="MAIN_CLASS_NAME" value="com.vytrack.tests.US3.Assigment005" />
-      <option name="METHOD_NAME" value="tc003_Refresh" />
+      <option name="METHOD_NAME" value="tc002_Refresh" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Assigment005.tc003_Refresh" />
         <item itemvalue="TestNG.Assigment005" />
         <item itemvalue="TestNG.Assigment005.tc002_Dropdown_Is_On_Left" />
         <item itemvalue="TestNG.Assigment003.tc002_Selected_Car_Info" />
         <item itemvalue="TestNG.Assigment005.tc003_Reset" />
+        <item itemvalue="TestNG.Assigment005.tc002_Refresh" />
       </list>
     </recent_temporary>
   </component>
@@ -167,10 +177,6 @@
       <workItem from="1624563747299" duration="2339000" />
       <workItem from="1624579492645" duration="2915000" />
       <workItem from="1624594087979" duration="115000" />
-      <workItem from="1624659109883" duration="1406000" />
-      <workItem from="1624804489005" duration="364000" />
-      <workItem from="1624827329766" duration="51000" />
-      <workItem from="1624840617624" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="added test case for Acceptance criteria 2">
       <created>1624594191112</created>
