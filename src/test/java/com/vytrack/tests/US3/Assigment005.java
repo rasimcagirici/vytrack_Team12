@@ -61,9 +61,9 @@ public class Assigment005 {
 
     @Test
     public void tc003_Refresh() {
-        //WebElement refreshButton = Driver.getDriver().findElement(By.xpath("//a[@title='Refresh']"));
-        //refreshButton.click();
-        //Assert.assertTrue(refreshButton.isEnabled());
+        ////WebElement refreshButton = Driver.getDriver().findElement(By.xpath("//a[@title='Refresh']"));
+        ////refreshButton.click();
+        ////Assert.assertTrue(refreshButton.isEnabled());
         WebElement refreshButton = Driver.getDriver().findElement(By.cssSelector("i.fa-repeat"));
         Assert.assertTrue(refreshButton.isEnabled());
         refreshButton.click();
